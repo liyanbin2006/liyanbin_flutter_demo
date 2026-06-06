@@ -1,0 +1,19 @@
+# Flutter
+.dart_tool/
+.packages
+build/
+pubspec.lock
+*.iml
+.idea/
+.flutter-plugins
+.flutter-plugins-dependencies
+.metadata
+*.g.dart
+*.freezed.dart
+
+# Web
+web/favicon.png
+
+# OS
+.DS_Store
+Thumbs.db
