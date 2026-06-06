@@ -17,7 +17,12 @@ class PersonalInfo {
 class TeamData {
   static const String projectTitle = '个人技术展示页';
   static const String projectSlogan = '计算机科学与技术专业学生 | Flutter Web 开发者';
-  static const List<PersonalInfo> infoList = [];
+  static const List<PersonalInfo> infoList = [
+    PersonalInfo(label: '姓名', value: '李炎彬', icon: Icons.person),
+    PersonalInfo(label: '学校', value: '云南大学', icon: Icons.school),
+    PersonalInfo(label: '专业', value: '计算机科学与技术', icon: Icons.computer),
+    PersonalInfo(label: '年级', value: '2024级', icon: Icons.calendar_today),
+  ];
   static const List<String> features = [];
   static const List<String> releaseNotes = [];
 }
