@@ -23,6 +23,13 @@ class TeamData {
     PersonalInfo(label: '专业', value: '计算机科学与技术', icon: Icons.computer),
     PersonalInfo(label: '年级', value: '2024级', icon: Icons.calendar_today),
   ];
-  static const List<String> features = [];
+  static const List<String> features = [
+    '掌握 Flutter Web 开发，能独立完成移动端与 Web 端跨平台应用',
+    '熟练使用 Material Design 3 设计规范，构建美观的用户界面',
+    '掌握 GitHub 版本控制与协作流程，熟悉 Git 分支管理',
+    '具备 GitHub Pages 静态网站部署能力，能将 Flutter Web 项目上线',
+    '拥有 Dart 编程基础，了解 Widget 组件化开发思想',
+    '正在学习 FPGA 数字逻辑设计与计算机组成原理',
+  ];
   static const List<String> releaseNotes = [];
 }
