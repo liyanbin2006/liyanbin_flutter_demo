@@ -31,5 +31,16 @@ class TeamData {
     '拥有 Dart 编程基础，了解 Widget 组件化开发思想',
     '正在学习 FPGA 数字逻辑设计与计算机组成原理',
   ];
-  static const List<String> releaseNotes = [];
+  static const List<String> releaseNotes = [
+    'GitHub 仓库地址：https://github.com/liyanbin2006/liyanbin_flutter_demo',
+    'GitHub Pages 访问地址：https://liyanbin2006.github.io/liyanbin_flutter_demo/',
+    '构建版本：Flutter Web (main/main.dart.js)',
+    '部署时间：2026年6月6日',
+    '本项目为 GitHub 协作与 Flutter Web 部署课堂实验，演示了完整的 Git 协作流程',
+    '✅ 组长负责仓库创建、main分支维护、PR审核与合并、GitHub Pages 部署',
+    '✅ 组员A（feature/member-a-title-slogan）负责项目标题与口号',
+    '✅ 组员B（feature/member-b-members）负责成员信息与个人简介',
+    '✅ 组员C（feature/member-c-features）负责项目功能列表与技能标签',
+    '✅ 组员D（feature/member-d-release-notes）负责发布说明与版本记录',
+  ];
 }
